@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
       <div className="hero__image-container">
         <div className="hero__image">
-          <Image src="/hero.png" alt="hero" fill className="object-contain" />
+          <Image src="/hero.png" alt="hero" fill sizes="(max-width: 1288px) 100vw, 60vw" className="object-contain" />
         </div>
         <div className="hero__image-overlay" />
       </div>
